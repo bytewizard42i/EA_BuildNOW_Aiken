@@ -16,7 +16,6 @@ fn sum_explicit(x: Int, y: Int) -> Int {
     x + y
 }
 
-
 // Lets check that our functions work by testing them
 test main_test() {
      main() == 22

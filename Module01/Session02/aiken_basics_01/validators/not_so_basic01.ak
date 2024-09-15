@@ -1,8 +1,10 @@
 // In Cardano we get no floating point numbers, so we have to use integers.
 
 // Then how do we manage simple financial calculations, like interest rates?
-
 // We can use integers and divide by 100 to get the percentage.
+// But what if we want to calculate the interest of a loan of 100 ADA at 20%?
+// We can use fixed point arithmetic.
+
 
 type FixedP = Pair<Int, Int>
 

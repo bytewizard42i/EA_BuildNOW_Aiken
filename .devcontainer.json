@@ -3,11 +3,10 @@
     // "build": {
     //  "dockerfile": "Dockerfile"
     // },
-    "image": "nanuijaz/cardano-node-preview:9.1.1-withdb",
+    "image": "nanuijaz/cardano-node-preview:9.1.1-predb",
     //"dockerComposeFile": "docker-compose.yml",
-    //"service": "ppp",
     "workspaceFolder": "/home/ubuntu",
-    //"shutdownAction": "stopCompose",
+    "shutdownAction": "none",
   
     // Configure tool-specific properties.
     "customizations": {
@@ -18,7 +17,7 @@
             "txpipe.aiken"
         ],
         "settings": {
-          //"haskell.formattingProvider": "stylish-haskell"
+          
         }
       }
     }

@@ -1,16 +1,16 @@
-name = "rcerrud/aiken_basics"
+name = "rcerrud/aiken_basics_01"
 version = "0.0.0"
-ompiler = "v1.1.0"
+ompiler = "v1.1.2"
 plutus = "v3"
 license = "Apache-2.0"
 description = "Aiken contracts for project 'rcerrud/aiken_basics'"
 
 [repository]
 user = "rcerrud"
-project = "aiken_basics"
+project = "aiken_basics_01"
 platform = "github"
 
 [[dependencies]]
 name = "aiken-lang/stdlib"
-version = "v2.0.0"
+version = "v2.1.0"
 source = "github"
