@@ -1,3 +1,5 @@
+use aiken_basics/myFirstLib.{sum}
+
 fn main(x: Int, y: Int) -> Int {
   let z = sum(x, y)
   x + y + z
