@@ -23,3 +23,11 @@ fn multiply(x: Int, y: Int) -> Int {
 test multiply_test() {
   multiply(3, 4) == 12
 }
+
+fn divide(x: Int, y: Int) -> Int {
+  x / y
+}
+
+test divide_test() {
+  divide(12, 4) == 3
+}
