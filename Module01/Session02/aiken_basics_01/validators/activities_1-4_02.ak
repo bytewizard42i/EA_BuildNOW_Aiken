@@ -1,6 +1,6 @@
 // 
 // 
-// *first set of activities*
+//                *First set of activities*
 // - Activity 001 - Create the substraction (-) function and test it 
 // - Activity 002 - Create the multiplication (*) function and test it 
 // - Activity 003 - Create the division (/) function and test it
