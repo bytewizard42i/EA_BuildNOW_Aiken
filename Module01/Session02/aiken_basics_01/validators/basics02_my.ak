@@ -1,4 +1,4 @@
-use aiken_basics_01/my_first_lib.{sum}
+use johnny5i_libraries/my_first_lib.{sum}
 
 fn main(x: Int, y: Int) -> Int {
   let z = sum(x, y)
