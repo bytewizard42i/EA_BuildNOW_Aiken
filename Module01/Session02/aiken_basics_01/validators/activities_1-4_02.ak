@@ -13,3 +13,4 @@ fn subtract(x: Int, y: Int) -> Int {
 test subtract_test() {
   subtract(21, 22) == -1
 }
+// subtract_test ok
