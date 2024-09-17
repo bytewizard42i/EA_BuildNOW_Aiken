@@ -13,4 +13,13 @@ fn subtract(x: Int, y: Int) -> Int {
 test subtract_test() {
   subtract(21, 22) == -1
 }
+
 // subtract_test ok
+
+fn multiply(x: Int, y: Int) -> Int {
+  x * y
+}
+
+test multiply_test() {
+  multiply(3, 4) == 12
+}
