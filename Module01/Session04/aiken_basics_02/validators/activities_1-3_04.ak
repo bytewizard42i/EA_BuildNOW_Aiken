@@ -3,19 +3,26 @@
 // 2. Checks even or odd with when-is
 // 3. compares prices vs payment and answer True if payment >= price, and False if not.
 
+// Lets make a constant for 2 called parity_divisor
+
+const parity_divisor = 2
+
+// making my first function to check if a number is even or odd
+
 fn odd_even(x: Int) -> ByteArray {
-  if x % 2 !== 0 {
+  if x % parity_divisor !== 0 {
     "Your selection was Odd"
   } else {
     "Your selection was Even"
   }
 }
 
+// ^^This is a test for the odd_even function^^
 test odd_even_test() {
   even_odd(6) == "Your test result is even"
 }
 
-// **Creating the fn mod to be called later**
+// **Creating the fn mod to be called later, this guy returns and integer**
 
 fn mod(x: Int, y: Int) -> Int {
   x % y
@@ -29,10 +36,15 @@ fn modulus(x: Int, y: Int) -> Bool {
   m == z
 }
 
-test modulus_test() {
-  modulus(4, 2) == True
-}
+//  ^^ This is a test for the mod function it should be first I think^^
 
 test mod_test() {
   mod(4, 2) == 0
 }
+
+//  ^^ This is a test for the modulus function ^^
+
+test modulus_test() {
+  modulus(4, 2) == True
+}
+
