@@ -12,6 +12,7 @@ fn sum(x, y) {
   x + y
 }
 
+// here we explicitly define the types of the arguments and the return type
 fn sum_explicit(x: Int, y: Int) -> Int {
   x + y
 }
