@@ -18,13 +18,13 @@ fn odd_even(x: Int) -> ByteArray {
 }
 
 // ^^This is a test for the odd_even function^^
-test odd_even_test() {
-  odd_even(7) == "Your test result was odd"
+test odd_even_test_odd() {
+  odd_even(7) == "Your test result was Odd"
 }
 
 // ^^This is a test for the odd_even function^^
-test odd_even_test() {
-  odd_even(6) == "Your test result was even"
+test odd_even_test_even() {
+  odd_even(6) == "Your test result was Even"
 }
 
 // **Creating the fn mod to be called later, this guy returns and integer**
