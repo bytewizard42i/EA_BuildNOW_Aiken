@@ -10,7 +10,7 @@ const parity_divisor = 2
 // making my first function to check if a number is even or odd
 
 fn odd_even(x: Int) -> ByteArray {
-  if x % parity_divisor !== 0 {
+  if x % parity_divisor != 0 {
     "Your selection was Odd"
   } else {
     "Your selection was Even"
@@ -47,4 +47,3 @@ test mod_test() {
 test modulus_test() {
   modulus(4, 2) == True
 }
-
