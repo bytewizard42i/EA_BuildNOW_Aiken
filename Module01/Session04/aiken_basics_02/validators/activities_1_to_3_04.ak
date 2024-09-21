@@ -11,15 +11,20 @@ const parity_divisor = 2
 
 fn odd_even(x: Int) -> ByteArray {
   if x % parity_divisor != 0 {
-    "Your selection was Odd"
+    "Your test result was Odd"
   } else {
-    "Your selection was Even"
+    "Your test result was Even"
   }
 }
 
 // ^^This is a test for the odd_even function^^
 test odd_even_test() {
-  odd_even(6) == "Your test result is even"
+  odd_even(7) == "Your test result was odd"
+}
+
+// ^^This is a test for the odd_even function^^
+test odd_even_test() {
+  odd_even(6) == "Your test result was even"
 }
 
 // **Creating the fn mod to be called later, this guy returns and integer**
