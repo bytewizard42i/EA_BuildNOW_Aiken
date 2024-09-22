@@ -14,10 +14,11 @@ test main_testset1() {
 
 fn blocks() {
     let x: Int = {
-                    // let a = 11 + 22             // Warning for unused identifier
-                    // True                        // Implicity discarded
-                    // let c = "Howdy"
-                    33    
+                    let a = 11
+                    //True
+                    let b = 22
+                    let c = a + b              // Warning for unused identifier
+                    c                       
                  }
     x
 }
@@ -42,6 +43,43 @@ fn patterns(i_can_only_count_2_4 x: Int) -> Int {
 
     }
 }  
+
+fn ooe_if(x: Int) -> ByteArray {
+    if x % 2 == 0 {
+        "Even"
+    } else {
+        "Odd"
+    }
+}
+
+fn ooe_wi(x: Int) -> ByteArray {
+    when x % 2 is {
+         0 -> "Even"
+         1 -> "Odd"
+         _ -> fail
+    }
+}
+
+fn payment_price(payment: Int, price: Int) -> Bool {
+  if payment >= price {
+    True
+  } else {
+    False
+  }
+}
+
+test payment_price_test_set3() {
+    payment_price(100, 50) == True && payment_price(100, 150) == False
+}
+
+
+test ooe_wi_test_set2() {
+    ooe_wi(3) == "Odd" && ooe_wi(4) == "Even"     
+}
+
+test ooe_if_test_set2() {
+    ooe_if(3) == "Odd" && ooe_if(4) == "Even"     
+}
 
 
 

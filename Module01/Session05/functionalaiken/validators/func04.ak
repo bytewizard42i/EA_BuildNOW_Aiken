@@ -1,6 +1,6 @@
 // Pipelines - Aiken's function composition.
 
-use aiken/list.{drop, take}
+use aiken/collection/list.{drop, take}
 
 
 // With parenthesis nesting

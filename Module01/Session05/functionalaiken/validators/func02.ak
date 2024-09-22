@@ -1,6 +1,6 @@
 // Basic lists map, all, any, filter, foldl, foldr
-
-use aiken/list
+use aiken/collection/pairs
+use aiken/collection/list
 
 pub fn simplelist() -> List<Int> {
     [1, 2, 3, 4, 5]
@@ -39,7 +39,6 @@ test tesging_foldl() {
 }
 
 //Pairs (Tuples)
-use aiken/pairs
 
 fn f() {
 let fixture: List<Pair<ByteArray, Int>> = [Pair("a",100), Pair("b",200), Pair("c",300), Pair("d",400), Pair("e",500)]
