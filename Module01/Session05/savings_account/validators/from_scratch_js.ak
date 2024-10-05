@@ -9,18 +9,18 @@ validator savings() {
     // target is the policy id of the token that we are minting
     // eg minting native tokens
 
-    withdraw(redeemer: Data, target: Acocunt tx_info: Transaction) 
-    // eg taking staking rewards
+    // withdraw(redeemer: Data, target: Acocunt tx_info: Transaction) 
+    // // eg taking staking rewards
 
-    publish(redeemer: Data, target: Certification tx_info: Transaction) 
-    // eg publishing a delegation certificate
-    // governance actions
+    // publish(redeemer: Data, target: Certification tx_info: Transaction) 
+    // // eg publishing a delegation certificate
+    // // governance actions
 
-    vote(redeemer: Data, target: Voter, tx_info: Transaction)
-    // eg voting on a proposal
+    // vote(redeemer: Data, target: Voter, tx_info: Transaction)
+    // // eg voting on a proposal
 
-    propose(redeemer: Data, target: ProposalProceeduretx_info: Transaction)
-    // catch-all handler
+    // propose(redeemer: Data, target: ProposalProceeduretx_info: Transaction)
+    // // catch-all handler
 
 
 
