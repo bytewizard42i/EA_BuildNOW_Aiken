@@ -1,5 +1,3 @@
-use aiken/collection/list
-
 // ## Constants and Types
 
 // ## Ints
@@ -43,11 +41,14 @@ const list_of_tokens = ["Sundae","Meld","Iagon","Minswap"]
 const tokesn_n_ada = ["Ada", ..list_of_tokens]
 
 
+// ## Tuples
+
+const my_mega_super_tuple = (1,"two",3)
+const just_a_tuple = (5,"six")
 
 // ## Pairs
 
-const pair_of_tokens = ("Sundae","Meld")
-
+// const value = Pair("Sundae",100)
 
 
 // ## Tests
