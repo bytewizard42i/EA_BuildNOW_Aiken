@@ -1,5 +1,5 @@
 validator savings() {
-    // all the handlers get 
+    // all the handlers get 'tx_info: Transaction' as an argument
 
     spend(redeemer, target: OutputReference, tx:info: Transaction) 
     // eg spending a utxo. 
