@@ -1,7 +1,7 @@
 validator savings() {
     // all the handlers get 'tx_info: Transaction' as an argument
 
-    spend(datum: Option<Data>, redeemer, target: OutputReference, tx:info: Transaction) 
+    spend(datum: Option<Data>, redeemer: Data, target: OutputReference, tx:info: Transaction) 
     // eg spending a utxo. 
     // OutputReference is basically the identity of the utxo that we are consuming
 
