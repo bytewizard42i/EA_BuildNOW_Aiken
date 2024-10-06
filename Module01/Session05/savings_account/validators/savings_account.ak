@@ -9,7 +9,7 @@ pub type SavingsDatum{
 }
 
 type Action = Int
-// 0: retire
+// 0: withdraw
 // 1: increase deposit
 
 validator savings() {
