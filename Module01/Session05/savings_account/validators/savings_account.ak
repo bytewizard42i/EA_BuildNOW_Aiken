@@ -57,7 +57,7 @@ fn updated_output(input_datum: (DataHash, Data), outputs: List<Output>, address:
                             }
                     }
                 )
-    counter == 1 
+    counter == 1
 }
 
 
