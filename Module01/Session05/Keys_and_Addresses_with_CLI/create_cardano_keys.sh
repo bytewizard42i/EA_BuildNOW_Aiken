@@ -3,11 +3,12 @@
 # Creating keys and accounts (enterprise and staking addresses)
 
 # Create keys
-echo "Creating keys"
+echo -e "\e[38;5;214mOk John, you will now be Creating Cryptographic Keys\e[0m"
+
 mkdir -p ../Keys_and_Addresses_with_CLI/new_user_keys_folder
 
 # Prompt user to enter file names for the enterprise verification and signing keys
-read -p "Enter the file name for the Enterprise Verification Key (without extension): " enterprise_vkey
+read -p "Enter the file name for the Enterprise Verification Key (add .vkey to the name): " enterprise_vkey
 read -p "Enter the file name for the Enterprise Signing Key (without extension): " enterprise_skey
 
 # Create enterprise keys
