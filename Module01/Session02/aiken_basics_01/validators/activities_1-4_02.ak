@@ -10,7 +10,7 @@ fn subtract(x: Int, y: Int) -> Int {
   x - y
 }
 
-test subtract_test() {
+test test_subtract() {
   subtract(21, 22) == -1
 }
 
@@ -20,7 +20,7 @@ fn multiply(x: Int, y: Int) -> Int {
   x * y
 }
 
-test multiply_test() {
+test test_multiply() {
   multiply(3, 4) == 12
 }
 
@@ -28,6 +28,6 @@ fn divide(x: Int, y: Int) -> Int {
   x / y
 }
 
-test divide_test() {
+test test_divide() {
   divide(12, 4) == 3
 }
